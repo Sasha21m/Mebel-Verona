@@ -1,0 +1,45 @@
+{
+  "name": "mebel-verona",
+  "version": "1.0.0",
+  "description": "Интернет-магазин мебели ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sasha21m/Mebel-Verona.git"
+  },
+  "keywords": [
+    "мебель",
+    "Киев",
+    "элитная",
+    "мебель"
+  ],
+  "author": "Oleksandr Protsenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sasha21m/Mebel-Verona/issues"
+  },
+  "homepage": "https://github.com/Sasha21m/Mebel-Verona#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "cssmin": "^0.4.3",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
+    "jquery-form-styler": "^2.0.2",
+    "magnific-popup": "^1.1.0",
+    "node-sass": "^4.14.1",
+    "normalize.css": "^8.0.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "dependencies": {
+    "rateyo": "^3.0.0-alpha.2"
+  }
+}
