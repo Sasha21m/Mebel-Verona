@@ -15,16 +15,24 @@ $(function () {
     
     // Sticky scroll header
     window.addEventListener("scroll", function () {
-        const header = document.querySelector(".header_inner");
+        const header = document.querySelector(".header_top-inner");
         header.classList.toggle("sticky", window.scrollY > 0)
     })
 
     // slider
     $('.slider_inner').slick( {
         dots: true,
-        arrows:false,
+        arrows: false,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true
-    })
+    });
+
+    // Load more
+    $("#loadMore").click(function () {
+        $("#boxs .box:hidden").slice(0, 4).slideDown()
+            if (($("#boxs .box:hidden")).length == 0) {
+            $("loadMore").fadeOut("slow")
+        }
+    });
 });
